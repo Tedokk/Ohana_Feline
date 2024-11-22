@@ -1,0 +1,343 @@
+@media screen and (max-width: 600px) {
+    #header{
+        position: sticky;
+        top: 0;
+    }
+} 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*img{
+    max-width: 100%;
+}
+
+#header{
+     margin: auto;
+     padding: auto;
+     text-align: center;
+     height: 400px;
+     background-color: white;
+     #logo{
+        height: 500px;
+        margin-top: -160px;
+    }
+    #header2{
+     #cv{
+        margin-top: -30px;
+         height: 100px;
+         float: left;
+         }
+     #contact{
+        margin-top: -40px;
+         height: 110px;
+         float: right;
+         }
+    } 
+}
+    /*section*/
+
+    #section{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-image: url(/Ohana_Feline/img/sfondo1.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    margin-top: 50px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+/*intro*/
+
+#start{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/*tommy*/
+
+#tommy-box{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 60% auto;
+    border-radius: 10px;
+    background-image: url(/Ohana_Feline/img/bg-tommy.jpg);
+    background-attachment: fixed;
+    align-items: center;
+    color: white;
+    h2{
+        font-family: "Edu AU VIC WA NT Pre", serif;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    #p{
+        font-size: 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-family: "Roboto", sans-serif;
+
+    }    
+    #tommy-png{
+        width: 600px;
+    }
+}
+
+#arrow{
+    width: 300px;
+    float: inline-end;
+    margin-bottom: 30px;
+   }
+
+   /*kilian*/
+
+   #second{
+    display: grid;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+   }
+   
+   #kilian-box{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 60% auto;
+    border-radius: 10px;
+    background-image: url(/Ohana_Feline/img/bg-kilian.jpg);
+    background-attachment: fixed;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    h2{
+        font-family: "Edu AU VIC WA NT Pre", serif;
+        font-size: 35px;
+    }
+    #kilian-png{
+        width: 500px;
+    }
+    #kilian-text{
+        color: darkblue;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+#arrow2{
+    width: 300px;
+    margin-bottom: 30px;
+    transform: rotate(40deg);
+}
+
+   /*petite*/
+
+   #third{
+    display: grid;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   #petite-box{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 60% auto;
+    border-radius: 10px;
+    background-image: url(/Ohana_Feline/img/bg-petite.jpg);
+    background-attachment: fixed;
+    align-items: center;
+    color: white;
+    width: auto;
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+
+    h2{
+        font-family: "Edu AU VIC WA NT Pre", serif;
+        font-size: 35px;
+    }
+    #petite-png{
+        width: 400px;
+    }
+    #petite-text{
+        color: black;
+        font-family: "Roboto", sans-serif;
+    }
+}
+#arrrow3{
+    text-align: center;
+#arrow3{
+    width: 400px;
+    margin-bottom: 30px;
+    transform: rotate(180deg);
+    text-align: center;
+}
+}
+
+/*child*/
+
+#fourth{
+    display: grid;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+   }
+
+#child-box{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 60% auto;
+    border-radius: 10px;
+    background-image: url(/Ohana_Feline/img/bg-child.jpg);
+    background-attachment: fixed;
+    align-items: center;
+    color: white;
+    h2{
+        font-family: "Edu AU VIC WA NT Pre", serif;
+        -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    }
+    #p{
+        font-size: 21px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    font-family: "Roboto", sans-serif;
+
+    }    
+    #child-png{
+        width: 500px;
+    }
+}
+
+#arrow4{
+    width: 300px;
+    float: inline-end;
+    margin-bottom: 30px;
+    background-color: white;
+   }
+
+   /*romeo*/
+
+   #fifth{
+    display: grid;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+   }
+
+#romeo-box{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 60% auto;
+    border-radius: 10px;
+    background-image: url(/Ohana_Feline/img/bg-romeo.jpg);
+    background-attachment: fixed;
+    align-items: center;
+    color: darkblue;
+    h2{
+        font-family: "Edu AU VIC WA NT Pre", serif;
+        -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightblue;
+    }
+    p{
+        font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightblue;
+    font-family: "Roboto", sans-serif;
+
+    }    
+    #romeo-png{
+        width: 500px;
+    }
+}
+
+#instagram{
+    
+    width: 300px;
+    margin-top: 50px;
+    h2{
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+
+/*contatti*/
+
+#bg-contact{
+    background-image: url(/Ohana_Feline/img/bg-contact.jpg);
+    background-attachment: fixed;
+#form{
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 50px;
+    color: white;
+}
+.input *{
+    display: block;
+}
+.input{
+    margin-top: 15px;
+    position: relative;
+    display: block;
+}
+.inputTitle{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type = "text"]{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    padding: 0 10px;
+}
+
+input[type = "submit"]{
+    font-size: 17px;
+    width: 80px;
+}
+
+textarea{
+    font-size: 17px;
+}
+}
+
+
+/*cv*/
+
+#intro{
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
