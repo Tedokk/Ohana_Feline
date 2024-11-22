@@ -1,9 +1,37 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     #header{
-        position: sticky;
-        top: 0;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
     }
-} 
+    #contact{
+        margin-right: -70px;
+    }
+    #cv{
+        margin-left: -60px;
+    }
+    #section{
+        border: 3px solid white;
+    }
+    #tommy-box{
+        border: 1px solid white;
+    }
+    #kilian-box{
+        border: 1px solid white;
+    }
+    #petite-box{
+        border: 1px solid white;
+    }
+    #child-box{
+        border: 1px solid white;
+    }
+    #romeo-box{
+        border: 1px solid white;
+    }
+
+}
+
 
 *{
     box-sizing: border-box;
@@ -18,20 +46,20 @@
      margin: auto;
      padding: auto;
      text-align: center;
-     height: 400px;
+     height: 200px;
      background-color: white;
      #logo{
         height: 500px;
-        margin-top: -160px;
+        margin-top: -180px;
     }
     #header2{
      #cv{
-        margin-top: -30px;
+        margin-top: -180px;
          height: 100px;
          float: left;
          }
      #contact{
-        margin-top: -40px;
+        margin-top: -180px;
          height: 110px;
          float: right;
          }
@@ -41,7 +69,7 @@
 
     #section{
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     height: 500px;
     color: white;
     text-align: center;
@@ -68,14 +96,13 @@
 /*tommy*/
 
 #tommy-box{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 60% auto;
-    border-radius: 10px;
-    background-image: url(/Ohana_Feline/img/bg-tommy.jpg);
-    background-attachment: fixed;
-    align-items: center;
-    color: white;
+        grid-template-rows: auto;
+        grid-template-columns: 60% auto;
+        border-radius: 10px;
+        background-image: url(/Ohana_Feline/img/bg-tommy.jpg);
+        background-attachment: fixed;
+        text-align: center;
+        color: white;
     h2{
         font-family: "Edu AU VIC WA NT Pre", serif;
         -webkit-text-stroke-width: 1px;
@@ -83,40 +110,40 @@
     }
     #p{
         font-size: 20px;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
-    font-family: "Roboto", sans-serif;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+        font-family: "Roboto", sans-serif;
 
     }    
     #tommy-png{
         width: 600px;
+        flex-direction: row-reverse;
     }
 }
 
 #arrow{
-    width: 300px;
-    float: inline-end;
-    margin-bottom: 30px;
+        width: 300px;
+        float: inline-end;
+        margin-bottom: 30px;
    }
 
    /*kilian*/
 
    #second{
-    display: grid;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-family: "Roboto", sans-serif;
+        display: grid;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-family: "Roboto", sans-serif;
    }
    
    #kilian-box{
-    display: grid;
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
     background-image: url(/Ohana_Feline/img/bg-kilian.jpg);
     background-attachment: fixed;
-    align-items: center;
+    text-align: center;
     color: white;
     font-size: 20px;
     -webkit-text-stroke-width: 1px;
@@ -127,10 +154,12 @@
     }
     #kilian-png{
         width: 500px;
+        
     }
     #kilian-text{
         color: darkblue;
         font-family: "Roboto", sans-serif;
+        text-align: center;
     }
 }
 
@@ -151,13 +180,13 @@
    }
 
    #petite-box{
-    display: grid;
+    
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
     background-image: url(/Ohana_Feline/img/bg-petite.jpg);
     background-attachment: fixed;
-    align-items: center;
+    text-align: center;
     color: white;
     width: auto;
     font-size: 25px;
@@ -197,13 +226,13 @@
    }
 
 #child-box{
-    display: grid;
+    
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
     background-image: url(/Ohana_Feline/img/bg-child.jpg);
     background-attachment: fixed;
-    align-items: center;
+    text-align: center;
     color: white;
     h2{
         font-family: "Edu AU VIC WA NT Pre", serif;
@@ -240,13 +269,13 @@
    }
 
 #romeo-box{
-    display: grid;
+   
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
     background-image: url(/Ohana_Feline/img/bg-romeo.jpg);
     background-attachment: fixed;
-    align-items: center;
+    text-align: center;
     color: darkblue;
     h2{
         font-family: "Edu AU VIC WA NT Pre", serif;
@@ -266,11 +295,19 @@
 }
 
 #instagram{
-    
     width: 300px;
     margin-top: 50px;
     h2{
         font-family: "Roboto", sans-serif;
+    }
+}
+
+#instagram1{
+    width: 300px;
+    margin-top: 50px;
+    h2{
+        font-family: "Roboto", sans-serif;
+        color: white;
     }
 }
 

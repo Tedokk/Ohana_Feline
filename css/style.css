@@ -1,7 +1,32 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   #header {
-    position: sticky;
     top: 0;
+    position: sticky;
+    background-color: white;
+  }
+  #contact {
+    margin-right: -70px;
+  }
+  #cv {
+    margin-left: -60px;
+  }
+  #section {
+    border: 3px solid white;
+  }
+  #tommy-box {
+    border: 1px solid white;
+  }
+  #kilian-box {
+    border: 1px solid white;
+  }
+  #petite-box {
+    border: 1px solid white;
+  }
+  #child-box {
+    border: 1px solid white;
+  }
+  #romeo-box {
+    border: 1px solid white;
   }
 }
 * {
@@ -18,20 +43,20 @@
   margin: auto;
   padding: auto;
   text-align: center;
-  height: 400px;
+  height: 200px;
   background-color: white;
 }
 #header #logo {
   height: 500px;
-  margin-top: -160px;
+  margin-top: -180px;
 }
 #header #header2 #cv {
-  margin-top: -30px;
+  margin-top: -180px;
   height: 100px;
   float: left;
 }
 #header #header2 #contact {
-  margin-top: -40px;
+  margin-top: -180px;
   height: 110px;
   float: right;
 }
@@ -39,7 +64,7 @@
 /*section*/
 #section {
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   height: 500px;
   color: white;
   text-align: center;
@@ -64,13 +89,12 @@
 
 /*tommy*/
 #tommy-box {
-  display: grid;
   grid-template-rows: auto;
   grid-template-columns: 60% auto;
   border-radius: 10px;
   background-image: url(/Ohana_Feline/img/bg-tommy.jpg);
   background-attachment: fixed;
-  align-items: center;
+  text-align: center;
   color: white;
 }
 #tommy-box h2 {
@@ -86,6 +110,7 @@
 }
 #tommy-box #tommy-png {
   width: 600px;
+  flex-direction: row-reverse;
 }
 
 #arrow {
@@ -104,13 +129,12 @@
 }
 
 #kilian-box {
-  display: grid;
   grid-template-rows: auto;
   grid-template-columns: 60% auto;
   border-radius: 10px;
   background-image: url(/Ohana_Feline/img/bg-kilian.jpg);
   background-attachment: fixed;
-  align-items: center;
+  text-align: center;
   color: white;
   font-size: 20px;
   -webkit-text-stroke-width: 1px;
@@ -126,6 +150,7 @@
 #kilian-box #kilian-text {
   color: darkblue;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 #arrow2 {
@@ -144,13 +169,12 @@
 }
 
 #petite-box {
-  display: grid;
   grid-template-rows: auto;
   grid-template-columns: 60% auto;
   border-radius: 10px;
   background-image: url(/Ohana_Feline/img/bg-petite.jpg);
   background-attachment: fixed;
-  align-items: center;
+  text-align: center;
   color: white;
   width: auto;
   font-size: 25px;
@@ -189,13 +213,12 @@
 }
 
 #child-box {
-  display: grid;
   grid-template-rows: auto;
   grid-template-columns: 60% auto;
   border-radius: 10px;
   background-image: url(/Ohana_Feline/img/bg-child.jpg);
   background-attachment: fixed;
-  align-items: center;
+  text-align: center;
   color: white;
 }
 #child-box h2 {
@@ -230,13 +253,12 @@
 }
 
 #romeo-box {
-  display: grid;
   grid-template-rows: auto;
   grid-template-columns: 60% auto;
   border-radius: 10px;
   background-image: url(/Ohana_Feline/img/bg-romeo.jpg);
   background-attachment: fixed;
-  align-items: center;
+  text-align: center;
   color: darkblue;
 }
 #romeo-box h2 {
@@ -260,6 +282,15 @@
 }
 #instagram h2 {
   font-family: "Roboto", sans-serif;
+}
+
+#instagram1 {
+  width: 300px;
+  margin-top: 50px;
+}
+#instagram1 h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 /*contatti*/
