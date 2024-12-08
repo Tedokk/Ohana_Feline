@@ -52,18 +52,7 @@
         height: 500px;
         margin-top: -180px;
     }
-    #header2{
-     #cv{
-        margin-top: -180px;
-         height: 100px;
-         float: left;
-         }
-     #contact{
-        margin-top: -180px;
-         height: 110px;
-         float: right;
-         }
-    } 
+   
 }
     /*section*/
 
@@ -296,76 +285,16 @@
 
 #instagram{
     width: 300px;
-    margin-top: 50px;
-    h2{
-        font-family: "Roboto", sans-serif;
-    }
-}
-
-#instagram1{
-    width: 300px;
-    margin-top: 50px;
-    h2{
-        font-family: "Roboto", sans-serif;
-        color: white;
-    }
-}
-
-
-/*contatti*/
-
-#bg-contact{
-    background-image: url(/img/bg-contact.jpg);
-    background-attachment: fixed;
-#form{
-    margin: 0 auto;
-    width: fit-content;
-    margin-top: 50px;
-    color: white;
-}
-.input *{
-    display: block;
-}
-.input{
-    margin-top: 15px;
-    position: relative;
-    display: block;
-}
-.inputTitle{
-    font-size: 17px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-input[type = "text"]{
-    width: 300px;
-    height: 40px;
-    outline: none;
-    font-size: 17px;
-    font-family: "Roboto", sans-serif;
-    padding: 0 10px;
-}
-
-input[type = "submit"]{
-    font-size: 17px;
-    width: 80px;
-}
-
-textarea{
-    font-size: 17px;
-}
-}
-
-
-/*cv*/
-
-#intro{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 100px;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    word-break:keep-all;
+    margin-top: 50px;
+    h2{
+        font-family: "Roboto", sans-serif;
+    }
 }
-
 
 
 
