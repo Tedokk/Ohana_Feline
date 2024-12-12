@@ -62,7 +62,7 @@
     height: 500px;
     color: white;
     text-align: center;
-    background-image: url(img/sfondo1.jpg);
+    background-image: url(../img/sfondo1.jpg);
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -80,6 +80,7 @@
     font-size: 50px;
     text-align: center;
     font-family: "Roboto", sans-serif;
+    
 }
 
 /*tommy*/
@@ -88,7 +89,7 @@
         grid-template-rows: auto;
         grid-template-columns: 60% auto;
         border-radius: 10px;
-        background-image: url(img/bg-tommy.jpg);
+        background-image: url(../img/bg-tommy.jpg);
         background-attachment: fixed;
         text-align: center;
         color: white;
@@ -130,7 +131,7 @@
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
-    background-image: url(img/bg-kilian.jpg);
+    background-image: url(../img/bg-kilian.jpg);
     background-attachment: fixed;
     text-align: center;
     color: white;
@@ -173,7 +174,7 @@
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
-    background-image: url(img/bg-petite.jpg);
+    background-image: url(../img/bg-petite.jpg);
     background-attachment: fixed;
     text-align: center;
     color: white;
@@ -219,7 +220,7 @@
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
-    background-image: url(img/bg-child.jpg);
+    background-image: url(../img/bg-child.jpg);
     background-attachment: fixed;
     text-align: center;
     color: white;
@@ -262,7 +263,7 @@
     grid-template-rows: auto;
     grid-template-columns: 60% auto;
     border-radius: 10px;
-    background-image: url(img/bg-romeo.jpg);
+    background-image: url(../img/bg-romeo.jpg);
     background-attachment: fixed;
     text-align: center;
     color: darkblue;
